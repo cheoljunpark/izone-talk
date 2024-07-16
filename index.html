@@ -3,36 +3,47 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width= , initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Welome to IZ*ONE Talk</title>
   </head>
   <body>
     <div class="status-bar">
-      <div><span>No Service</span><i class="fa-solid fa-wifi"></i></div>
-      <div><span>18:43</span></div>
-      <div>
+      <div class="status-bar__column status-bar__left">
+        <span>No Service</span><i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column status-bar__center">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column status-bar__right">
         <i class="fa-solid fa-lock"></i><span>11%</span
-        ><i class="fa-solid fa-battery-three-quarters"></i
+        ><i class="fa-solid fa-battery-three-quarters fa-xl"></i
         ><i class="fa-solid fa-bolt"></i>
       </div>
     </div>
 
     <header class="welcome-header">
-      <h1>Welcome to IZ*ONE Talk</h1>
-      <p>
-        If you have a IZ*ONE Account, log in with your email or phone number
+      <h1 class="welcome-header__title">Welcome to IZ*ONE Talk</h1>
+      <p class="welcome-header__content">
+        If you have a IZ*ONE Account, log in with your email or phone number.
       </p>
     </header>
 
-    <form action="friends.html" method="get">
+    <form action="friends.html" method="get" class="login-form">
       <input
         name="username"
         type="text"
         placeholder="Email or Phone number"
         required
+        class="login-form__input"
       />
-      <input name="password" type="password" placeholder="Password" required />
-      <input type="submit" value="Log In" />
-      <input type="submit" value="Sign Up" />
+      <input
+        name="password"
+        type="password"
+        placeholder="Password"
+        required
+        class="login-form__input"
+      />
+      <input type="submit" value="Log In" class="login-form__submit" />
       <a href="#">Find IZ*ONE Account or Password</a>
     </form>
 
