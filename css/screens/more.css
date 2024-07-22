@@ -1,0 +1,130 @@
+.more-menu {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+  width: 90%;
+  padding: 10px 5px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.more-menu__item {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.more-menu__item i {
+  margin-bottom: 10px;
+}
+
+.more-suggestions {
+  display: flex;
+  flex-direction: column;
+}
+
+.more-suggestions__list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+}
+
+.more-suggestions__title {
+  margin: 15px 10px;
+  font-weight: 600;
+}
+
+.more-suggestions__img {
+  width: 50px;
+  height: 50px;
+  border-radius: 8px;
+  margin-bottom: 6px;
+}
+
+.more-suggestions__list li {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.more-profile__row {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.more-profile__img {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5px;
+}
+
+.more-profile__img img {
+  width: 60px;
+  height: 60px;
+  border-radius: 40%;
+  margin-left: 20px;
+}
+
+.more-profile__text {
+  width: 75%;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.more-profile__text h1 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+
+.more-profile__text span {
+  margin-top: 5px;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.more-profile__text span i {
+  margin-left: 4px;
+  color: tomato;
+}
+
+.more-profile__message {
+  width: 10%;
+  display: flex;
+  flex-direction: column;
+}
+
+.more-profile__message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.more-profile__message span:first-child {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.more-profile__message span:last-child {
+  color: white;
+  display: block;
+  width: 10px;
+  height: 10px;
+  background-color: tomato;
+  border-radius: 50%;
+  font-size: 12px;
+  padding: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+}
