@@ -1,0 +1,140 @@
+.chat-body {
+  background-color: #abc0d0;
+}
+
+.chat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.chat-date {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #91a3b2;
+  width: 200px;
+  border-radius: 20px;
+  padding: 5px;
+  margin-bottom: 25px;
+}
+
+.partner {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 10px;
+  top: 75px;
+}
+
+.partner__img {
+  width: 50px;
+  height: 50px;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+.partner-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.partner__name {
+  font-weight: 500;
+  opacity: 0.4;
+}
+
+.partner__message {
+  display: flex;
+  align-items: end;
+}
+
+.partner__message h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+  margin-right: 5px;
+}
+
+.partner__time {
+  font-size: 13px;
+  opacity: 0.4;
+}
+
+.user {
+  display: flex;
+  position: absolute;
+  right: 10px;
+  top: 150px;
+}
+
+.user__time {
+  display: flex;
+  align-items: end;
+  font-size: 13px;
+  opacity: 0.4;
+}
+
+.user__message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: yellow;
+  border-radius: 10px;
+  margin-left: 5px;
+}
+
+.chat-bar {
+  display: flex;
+  background-color: white;
+  padding: 10px 0;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+.chat-bar__more {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chat-bar__more i {
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  padding: 3px;
+}
+
+.chat-bar__text {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.chat-bar__text input {
+  width: 90%;
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  border-radius: 25px;
+  padding: 5px 10px;
+}
+
+.chat-bar__text .fa-face-smile {
+  position: absolute;
+  right: 50px;
+}
+
+.chat-bar__text .fa-arrow-up {
+  position: absolute;
+  right: 30px;
+  width: 10px;
+  height: 10px;
+  background-color: yellow;
+}
