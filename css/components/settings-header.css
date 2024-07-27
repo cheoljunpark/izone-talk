@@ -1,0 +1,14 @@
+.settings-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 15px;
+  align-items: center;
+}
+
+.settings-header__title {
+  font-size: 24px;
+}
+
+.settings-header__menu i {
+  margin-left: 10px;
+}
