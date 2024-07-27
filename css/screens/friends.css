@@ -1,105 +1,95 @@
 .header {
   display: flex;
   justify-content: space-between;
-  margin-top: 20px;
+  padding: 20px 15px;
 }
 
 .header__title {
   font-weight: 600;
   font-size: 30px;
-  margin: 10px;
-}
-
-.header__menu {
-  margin: 10px;
 }
 
 .header__menu i {
-  margin-right: 10px;
+  margin-left: 13px;
 }
 
 .notice {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #fafafa;
-  padding: 8px 0;
+  background-color: var(--white);
+  padding: 15px 0px;
 }
 
 .notice__text {
-  margin: 0 4px;
+  margin: 0 5px;
 }
 
 .profile {
   display: flex;
   align-items: center;
-  padding: 10px 15px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 20px 15px;
+  border-bottom: 1px solid var(--white);
 }
 
 .profile__img {
-  width: 50px;
-  height: 50px;
+  width: 70px;
+  height: 70px;
   border-radius: 40%;
 }
 
 .profile__name {
   font-weight: 600;
+  font-size: 20px;
   margin-left: 15px;
 }
 
 .friends__header {
   display: flex;
   justify-content: space-between;
-  padding: 15px 15px 0 15px;
-}
-
-.friends__header span {
-  color: rgba(0, 0, 0, 0.4);
-}
-
-.friends__header i {
-  color: rgba(0, 0, 0, 0.4);
+  padding: 20px 15px;
 }
 
 .friends-list {
+  display: flex;
+  flex-direction: column;
   padding: 0 15px;
-  overflow: auto;
-  height: 380px;
-  -ms-overflow-style: none; /*IE, Edge*/
-  scrollbar-width: none; /*Firefox*/
-  ::-webkit-scrollbar {
-    display: none; /*Chrome, Safari, Opera*/
-    width: 0px;
-  }
+  height: 50vh;
+  overflow-y: auto;
+}
+
+.friends-list::-webkit-scrollbar {
+  display: none;
+}
+
+.friends-list__row {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
 }
 
 .friends-list__img {
   width: 40px;
   height: 40px;
   border-radius: 40%;
+  margin-right: 10px;
 }
 
-.friends-list__name {
-  margin-left: 15px;
+@keyframes hideSplashScreen {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
 }
 
-.friends-list__column {
-  display: flex;
-  align-items: center;
-  margin: 20px 0;
-}
-
-.footer {
-  position: relative;
-}
-
-.footer-menu {
-  display: flex;
-  justify-content: space-around;
-  background-color: #fafafa;
-  padding: 15px;
+#splash-screen {
   position: absolute;
-  bottom: 0;
-  width: 100%;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  animation: hideSplashScreen 0.2s ease-out forwards;
+  animation-delay: 0.7s;
 }
