@@ -1,18 +1,12 @@
-.settings-header {
-  display: flex;
-  justify-content: space-between;
-  padding: 20px 15px;
-  align-items: center;
-  margin-bottom: 10px;
-}
-
-.settings-header__title {
-  font-size: 24px;
-}
-
 .settings-list {
   display: flex;
   flex-direction: column;
+  overflow-y: auto;
+  height: 80%;
+}
+
+.settings-list::-webkit-scrollbar {
+  display: none;
 }
 
 .settings-list__row {
@@ -32,16 +26,6 @@
   font-size: 20px;
 }
 
-.settings-list__description {
-  color: rgba(0, 0, 0, 0.4);
-}
-
-.settings-list__row:nth-child(3) {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  padding-bottom: 30px;
-  margin-bottom: 20px;
-}
-
 .settings-list__new {
   display: flex;
   justify-content: center;
@@ -51,7 +35,13 @@
   background-color: tomato;
   color: white;
   border-radius: 50%;
-  font-size: 12px;
+  font-size: 10px;
   font-weight: 700;
-  margin-left: 5px;
+  margin-left: 7px;
+}
+
+.settings-list__row:nth-child(3) {
+  border-bottom: 1px solid var(--gray);
+  padding-bottom: 30px;
+  margin-bottom: 20px;
 }
