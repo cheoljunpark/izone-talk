@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="css/styles.css" />
     <title>IZ*ONE - Chat</title>
   </head>
-  <body class="chat-body">
+  <body>
     <div class="status-bar">
       <div class="status-bar__column status-bar__left">
         <span>No Service</span>
@@ -21,18 +21,16 @@
         ><i class="fa-solid fa-bolt"></i>
       </div>
     </div>
-
     <div class="settings-header">
-      <a href="chats.html">
+      <a class="settings-header__column" href="chats.html">
         <i class="fa-solid fa-chevron-left fa-xl"></i>
       </a>
-      <h1 class="settings-header__title">권은비</h1>
-      <div class="settings-header__menu">
+      <h1 class="settings-header__column settings-header__title">권은비</h1>
+      <div class="settings-header__column settings-header__menu">
         <i class="fa-solid fa-magnifying-glass fa-xl"></i>
         <i class="fa-solid fa-bars"></i>
       </div>
     </div>
-
     <main class="chat">
       <div class="chat-date">Saturday, July 27, 2024</div>
       <div class="partner">
@@ -53,7 +51,6 @@
         <div class="user__message">What's up?</div>
       </div>
     </main>
-
     <div class="chat-bar">
       <div class="chat-bar__more">
         <i class="fa-solid fa-plus"></i>
@@ -61,7 +58,9 @@
       <div class="chat-bar__text">
         <input type="text" placeholder="Write Message..." />
         <i class="fa-regular fa-face-smile"></i>
-        <i class="fa-solid fa-arrow-up"></i>
+        <div>
+          <i class="fa-solid fa-arrow-up"></i>
+        </div>
       </div>
     </div>
 

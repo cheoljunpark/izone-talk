@@ -1,7 +1,3 @@
-.chat-body {
-  background-color: #abc0d0;
-}
-
 .chat {
   display: flex;
   flex-direction: column;
@@ -14,24 +10,22 @@
   justify-content: center;
   align-items: center;
   color: white;
-  background-color: #91a3b2;
-  width: 200px;
+  background-color: var(--gray);
   border-radius: 20px;
-  padding: 5px;
-  margin-bottom: 25px;
+  padding: 10px 20px;
 }
 
 .partner {
   display: flex;
   align-items: center;
   position: absolute;
-  left: 10px;
-  top: 75px;
+  left: 15px;
+  top: 60px;
 }
 
 .partner__img {
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
   border-radius: 20px;
   margin-right: 10px;
 }
@@ -39,11 +33,11 @@
 .partner-info {
   display: flex;
   flex-direction: column;
+  line-height: 1.5;
 }
 
 .partner__name {
   font-weight: 500;
-  opacity: 0.4;
 }
 
 .partner__message {
@@ -57,19 +51,19 @@
   align-items: center;
   padding: 10px;
   background-color: white;
-  border-radius: 10px;
-  margin-right: 5px;
+  border-radius: 0px 20px 20px 20px;
+  margin-right: 7px;
+  color: black;
 }
 
 .partner__time {
   font-size: 13px;
-  opacity: 0.4;
 }
 
 .user {
   display: flex;
   position: absolute;
-  right: 10px;
+  right: 15px;
   top: 150px;
 }
 
@@ -77,7 +71,6 @@
   display: flex;
   align-items: end;
   font-size: 13px;
-  opacity: 0.4;
 }
 
 .user__message {
@@ -85,15 +78,16 @@
   justify-content: center;
   align-items: center;
   padding: 10px;
-  background-color: yellow;
-  border-radius: 10px;
-  margin-left: 5px;
+  background-color: var(--yellow);
+  border-radius: 20px 0px 20px 20px;
+  margin-left: 7px;
+  color: black;
 }
 
 .chat-bar {
   display: flex;
   background-color: white;
-  padding: 10px 0;
+  padding: 10px 0px;
   position: absolute;
   width: 100%;
   bottom: 0;
@@ -107,34 +101,41 @@
 }
 
 .chat-bar__more i {
-  border: 2px solid rgba(0, 0, 0, 0.3);
-  border-radius: 5px;
-  padding: 3px;
+  border: 2px solid var(--gray);
+  border-radius: 7px;
+  padding: 5px;
 }
 
 .chat-bar__text {
   width: 90%;
   display: flex;
   align-items: center;
-  position: relative;
 }
 
 .chat-bar__text input {
   width: 90%;
-  border: 2px solid rgba(0, 0, 0, 0.3);
+  border: 1px solid var(--gray);
   border-radius: 25px;
-  padding: 5px 10px;
+  padding: 10px 15px;
+  position: relative;
 }
 
 .chat-bar__text .fa-face-smile {
   position: absolute;
-  right: 50px;
+  right: 60px;
+  font-size: 20px;
 }
 
-.chat-bar__text .fa-arrow-up {
+.chat-bar__text div {
   position: absolute;
-  right: 30px;
+  right: 15px;
   width: 10px;
   height: 10px;
-  background-color: yellow;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  background-color: var(--yellow);
+  color: black;
 }
