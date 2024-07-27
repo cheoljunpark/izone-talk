@@ -136,6 +136,7 @@ a {
 body {
   background-color: var(--blueblack);
   color: #b3b1b2;
+  height: 100vh;
 }
 
 input:focus {
