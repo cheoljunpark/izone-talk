@@ -2,50 +2,67 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .welcome-header__title {
   font-weight: 500;
-  font-size: 25px;
+  font-size: 27px;
   margin-top: 50px;
-  margin-bottom: 40px;
+  margin-bottom: 45px;
 }
 
 .welcome-header__content {
-  width: 60%;
   opacity: 0.7;
-  margin-bottom: 80px;
+  line-height: 1.4;
 }
 
 .login-form {
   display: flex;
   flex-direction: column;
-  margin: 0 15px;
+  margin: 80px 30px 0 30px;
 }
 
 .login-form__input {
   border: none;
   font-size: 18px;
-  padding: 10px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.7);
-  margin-bottom: 10px;
+  padding: 10px 10px 10px 0;
+  border-bottom: 1px solid var(--gray);
+  margin-bottom: 15px;
+  background-color: var(--blueblack);
+  color: white;
+  transition: border-color 0.5s ease-in-out;
+}
+
+.login-form__input:focus {
+  border-color: white;
+  border-width: 3px;
 }
 
 .login-form__input::placeholder {
-  color: rgba(0, 0, 0, 0.4);
+  color: var(--gray);
 }
 
 .login-form__submit {
-  padding: 10px;
   border: none;
-  border-radius: 5px;
-  font-size: 15px;
+  border-radius: 15px;
+  font-size: 17px;
   margin-top: 30px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   padding: 20px 0;
   cursor: pointer;
+  color: var(--blueblack);
+  background-color: var(--gray);
+}
+
+.login-form__submit:hover {
+  background-color: white;
 }
 
 .login-form a {
   text-align: center;
+}
+
+.login-form a:hover {
+  color: white;
 }
