@@ -12,3 +12,21 @@
 .header__menu i {
   margin-left: 13px;
 }
+
+@keyframes rotateGear {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.header__menu .fa-gear {
+  animation: rotateGear 2s ease-in-out infinite;
+  animation-delay: 1s;
+}
+
+.header__menu i:hover {
+  color: var(--white);
+}
