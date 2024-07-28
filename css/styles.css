@@ -6,6 +6,7 @@
 @import 'components/footer-menu.css';
 @import 'components/settings-header.css';
 @import 'components/no-mobile.css';
+@import 'components/header.css';
 
 /* Screens */
 @import 'screens/login.css';

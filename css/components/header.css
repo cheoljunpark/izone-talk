@@ -1,0 +1,14 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 15px;
+}
+
+.header__title {
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.header__menu i {
+  margin-left: 13px;
+}
