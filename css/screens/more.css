@@ -26,6 +26,10 @@
   line-height: 1.4;
 }
 
+.more-profile__text:hover {
+  color: var(--white);
+}
+
 .more-profile__text h1 {
   font-size: 20px;
   font-weight: 600;
@@ -43,6 +47,10 @@
   align-items: center;
 }
 
+.more-profile__message:hover {
+  color: var(--white);
+}
+
 .more-menu {
   display: flex;
   flex-wrap: wrap;
@@ -58,6 +66,10 @@
   justify-content: center;
   padding: 10px;
   margin-bottom: 10px;
+}
+
+.more-menu__item:hover {
+  color: var(--white);
 }
 
 .more-menu__item i {
@@ -92,4 +104,17 @@
   margin: 0px 20px;
   align-items: center;
   justify-content: center;
+}
+
+@keyframes makeIconBig {
+  from {
+  }
+  to {
+    transform: scale(1.2);
+    color: var(--white);
+  }
+}
+
+.more-suggestions__list li:hover {
+  animation: makeIconBig 0.5s ease-in-out forwards;
 }
