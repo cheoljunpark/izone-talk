@@ -24,10 +24,47 @@
   border-radius: 40%;
 }
 
+@keyframes changeColor {
+  0% {
+    color: #bbafdc;
+  }
+  10% {
+    color: #f1d2e7;
+  }
+  20% {
+    color: #db706b;
+  }
+  30% {
+    color: #fcf695;
+  }
+  40% {
+    color: #a7dfe1;
+  }
+  50% {
+    color: #cde5d5;
+  }
+  60% {
+    color: #ffffff;
+  }
+  70% {
+    color: #f3aa51;
+  }
+  80% {
+    color: #567ace;
+  }
+  90% {
+    color: #f1c3a9;
+  }
+  100% {
+    color: #d9598c;
+  }
+}
+
 .profile__name {
   font-weight: 600;
   font-size: 20px;
   margin-left: 15px;
+  animation: changeColor 5s ease-in-out infinite;
 }
 
 .friends__header {
@@ -52,6 +89,10 @@
   display: flex;
   align-items: center;
   margin: 10px 0;
+}
+
+.friends-list__row:hover {
+  color: var(--white);
 }
 
 .friends-list__img {
