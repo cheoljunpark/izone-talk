@@ -57,7 +57,7 @@ izone-talk/
   ![assignment06](assets/assignment06.png)
 - https://replit.com/@cheoljunpark/kokoa-cloneassignment07
   ![assignment07](assets/assignment07.png)
-- https://replit.com/@dkfnak6789/kokoa-cloneassignment08
+- https://replit.com/@dkfnak6789/kokoa-cloneassignment08<br>
   ![assignment08](assets/assignment08.gif)
 - https://replit.com/@dkfnak6789/kokoa-cloneassignment09
   ![assignment09](assets/assignment09.png)
