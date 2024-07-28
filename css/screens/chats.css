@@ -38,6 +38,18 @@
   align-items: center;
 }
 
+@keyframes flip {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: rotateY(360deg);
+  }
+  100% {
+    transform: none;
+  }
+}
+
 .chat-list__time span:last-child {
   width: 10px;
   height: 10px;
@@ -52,4 +64,5 @@
   justify-content: center;
   align-items: center;
   margin-top: 5px;
+  animation: flip 4s ease-in-out infinite;
 }
