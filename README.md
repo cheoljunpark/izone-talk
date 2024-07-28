@@ -52,16 +52,16 @@ izone-talk/
 ## 추가 HTML & CSS 연습 결과물
 
 - https://replit.com/@cheoljunpark/YouAreAwesomeBlueprint#index.html
-  ![assignment04](assets/assignment04.png)
+  <img src="assets/assignment04.png" alt="assignment04" width="200" height="200" style="border-radius:15px">
 - https://replit.com/@cheoljunpark/YouAreAwesomeBlueprint-1
-  ![assignment06](assets/assignment06.png)
+  <img src="assets/assignment06.png" alt="assignment06" width="200" height="200" style="border-radius:15px">
 - https://replit.com/@cheoljunpark/kokoa-cloneassignment07
-  ![assignment07](assets/assignment07.png)
+  <img src="assets/assignment07.png" alt="assignment07" width="200" height="300" style="border-radius:15px">
 - https://replit.com/@dkfnak6789/kokoa-cloneassignment08<br>
-  ![assignment08](assets/assignment08.gif)
+  <img src="assets/assignment08.gif" alt="assignment08" width="200" height="350" style="border-radius:15px">
 - https://replit.com/@dkfnak6789/kokoa-cloneassignment09
-  ![assignment09](assets/assignment09.png)
+  <img src="assets/assignment09.png" alt="assignment09" width="200" height="350" style="border-radius:15px">
 - https://replit.com/@dkfnak6789/kokoa-cloneassignmentten
-  ![assignment10](assets/assignment10.png)
+  <img src="assets/assignment10.png" alt="assignment10" width="200" height="350" style="border-radius:15px">
 - https://replit.com/@dkfnak67891/kokoa-cloneassignment11
-  ![assignment11](assets/assignment11.png)
+  <img src="assets/assignment11.png" alt="assignment11" width="400" height="400" style="border-radius:15px">
