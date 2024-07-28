@@ -7,3 +7,8 @@
   bottom: -20px;
   width: 100%;
 }
+
+.footer-menu i:hover {
+  font-size: 25px;
+  color: var(--blueblack);
+}
