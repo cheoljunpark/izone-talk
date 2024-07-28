@@ -51,17 +51,17 @@ izone-talk/
 
 ## 추가 HTML & CSS 연습 결과물
 
-- https://replit.com/@cheoljunpark/YouAreAwesomeBlueprint#index.html
+- https://replit.com/@cheoljunpark/YouAreAwesomeBlueprint#index.html<br>
   <img src="assets/assignment04.png" alt="assignment04" width="200" height="200" style="border-radius:15px">
-- https://replit.com/@cheoljunpark/YouAreAwesomeBlueprint-1
+- https://replit.com/@cheoljunpark/YouAreAwesomeBlueprint-1<br>
   <img src="assets/assignment06.png" alt="assignment06" width="200" height="200" style="border-radius:15px">
-- https://replit.com/@cheoljunpark/kokoa-cloneassignment07
+- https://replit.com/@cheoljunpark/kokoa-cloneassignment07<br>
   <img src="assets/assignment07.png" alt="assignment07" width="200" height="300" style="border-radius:15px">
 - https://replit.com/@dkfnak6789/kokoa-cloneassignment08<br>
   <img src="assets/assignment08.gif" alt="assignment08" width="200" height="350" style="border-radius:15px">
-- https://replit.com/@dkfnak6789/kokoa-cloneassignment09
+- https://replit.com/@dkfnak6789/kokoa-cloneassignment09<br>
   <img src="assets/assignment09.png" alt="assignment09" width="200" height="350" style="border-radius:15px">
-- https://replit.com/@dkfnak6789/kokoa-cloneassignmentten
+- https://replit.com/@dkfnak6789/kokoa-cloneassignmentten<br>
   <img src="assets/assignment10.png" alt="assignment10" width="200" height="350" style="border-radius:15px">
-- https://replit.com/@dkfnak67891/kokoa-cloneassignment11
+- https://replit.com/@dkfnak67891/kokoa-cloneassignment11<br>
   <img src="assets/assignment11.png" alt="assignment11" width="400" height="400" style="border-radius:15px">
