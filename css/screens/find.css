@@ -115,6 +115,21 @@
   right: 5px;
 }
 
+@keyframes heartBeat {
+  0% {
+    color: white;
+  }
+  50% {
+    transform: scale(1.25);
+    color: tomato;
+  }
+  100% {
+    color: white;
+  }
+}
+
 .open-chat__like i {
   margin-right: 5px;
+  will-change: transform;
+  animation: heartBeat 2s ease-in-out infinite;
 }
