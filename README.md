@@ -6,6 +6,10 @@ IZ\*ONE-Talk
 
 이 프로젝트는 HTML과 CSS를 사용하여 카카오톡을 클론코딩 한 것입니다. 이 프로젝트를 통해 HTML과 CSS의 기본 개념과 웹 페이지 레이아웃 기술을 학습하였습니다.
 
+## 수상
+
+- 🏆우수 작품상 수상🏆(https://nomadcoders.co/community/thread/10065)
+
 ## 사용 기술
 
 - HTML5
