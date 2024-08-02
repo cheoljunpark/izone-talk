@@ -21,36 +21,28 @@ IZ\*ONE-Talk
 
 ## 파일 구조
 
-```plaintext
+```shell
 izone-talk/
+├── README.md
+├── assets
+│   ├── assignment
+│   ├── chat
+│   ├── find
+│   ├── friends
+│   └── more
+├── css
+│   ├── components
+│   ├── reset.css
+│   ├── screens
+│   ├── styles.css
+│   └── variable.css
 ├── chat.html
 ├── chats.html
 ├── find.html
 ├── friends.html
 ├── index.html
 ├── more.html
-├── settings.html
-├── css/
-│   └── reset.css
-│   └── styles.css
-│   └── variable.css
-│   └── components/
-│       └── footer-menu.css
-│       └── header.css
-│       └── settings-header.css
-│       └── status-bar.css
-│   └── screens/
-│       └── chat.css
-│       └── chats.css
-│       └── find.css
-│       └── friends.css
-│       └── login.css
-│       └── more.css
-│       └── settings.css
-└── assets/
-    └── (이미지 파일들)
-└── screenshots/
-    └── (클론코딩 이미지 파일들)
+└── settings.html
 ```
 
 ## 추가 HTML & CSS 연습 결과물
