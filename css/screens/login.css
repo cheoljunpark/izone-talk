@@ -43,6 +43,10 @@
   color: var(--gray);
 }
 
+.login-form__input:focus::placeholder {
+  color: var(--white);
+}
+
 .login-form__submit {
   border: none;
   border-radius: 15px;
