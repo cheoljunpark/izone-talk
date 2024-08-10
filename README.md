@@ -47,17 +47,17 @@ izone-talk/
 
 ## 추가 HTML & CSS 연습 결과물
 
-- https://replit.com/@cheoljunpark/YouAreAwesomeBlueprint#index.html<br>
+- https://codesandbox.io/p/sandbox/assignment03-trzwvn?file=%2Findex.html<br>
   <img src="assets/assignment/assignment04.png" alt="assignment04" width="200" height="200" style="border-radius:15px">
-- https://replit.com/@cheoljunpark/YouAreAwesomeBlueprint-1<br>
+- https://codesandbox.io/p/sandbox/assignment05-gpzvq4?file=%2Fstyles.css<br>
   <img src="assets/assignment/assignment06.png" alt="assignment06" width="200" height="200" style="border-radius:15px">
-- https://replit.com/@cheoljunpark/kokoa-cloneassignment07<br>
+- https://codesandbox.io/p/sandbox/assignment07-jyvv8j?file=%2Fstyles.css<br>
   <img src="assets/assignment/assignment07.png" alt="assignment07" width="200" height="300" style="border-radius:15px">
-- https://replit.com/@dkfnak6789/kokoa-cloneassignment08<br>
+- https://codesandbox.io/p/sandbox/assignment08-mmmcr6?file=%2Fstyles.css<br>
   <img src="assets/assignment/assignment08.gif" alt="assignment08" width="200" height="350" style="border-radius:15px">
-- https://replit.com/@dkfnak6789/kokoa-cloneassignment09<br>
+- https://codesandbox.io/p/sandbox/assignment09-gmpyr2?file=%2Fstyles.css<br>
   <img src="assets/assignment/assignment09.png" alt="assignment09" width="200" height="350" style="border-radius:15px">
-- https://replit.com/@dkfnak6789/kokoa-cloneassignmentten<br>
+- https://codesandbox.io/p/sandbox/assignment10-z2jjqw?file=%2Fstyles.css<br>
   <img src="assets/assignment/assignment10.png" alt="assignment10" width="200" height="350" style="border-radius:15px">
-- https://replit.com/@dkfnak67891/kokoa-cloneassignment11<br>
+- https://codesandbox.io/p/sandbox/assignment11-tmc7y9?file=%2Fstyles.css<br>
   <img src="assets/assignment/assignment11.png" alt="assignment11" width="400" height="400" style="border-radius:15px">
